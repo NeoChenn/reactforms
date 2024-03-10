@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="container">
+        <label for="search-input">Search for Pokémon Name or ID: </label><br>
+        <div>
+            <input type="text" id="search-input" required>
+            <button id="search-button">Search</button>
+        </div>
+        <div id="pokemon-container">
+            <h4><span id="pokemon-name"></span><span id="pokemon-id"></span></h4>
+            <p><span id="weight"></span> <span id="height"></span></p>
+            <img id="sprite" src="">
+            <p id="types"></p>
+        </div>
+        <table>
+            <tr>
+                <th>Base</th>
+                <th>Stats</th>
+            </tr>
+            <tr>
+                <td>HP:</td>
+                <td id="hp" class="stats"></td>
+            </tr>
+            <tr>
+                <td>Attack:</td>
+                <td id="attack" class="stats"></td>
+            </tr>
+            <tr>
+                <td>Defense:</td>
+                <td id="defense" class="stats"></td>
+            </tr>
+            <tr>
+                <td>Sp.Attack:</td>
+                <td id="special-attack" class="stats"></td>
+            </tr>
+            <tr>
+                <td>Sp.Defense:</td>
+                <td id="special-defense" class="stats"></td>
+            </tr>
+            <tr>
+                <td>Speed:</td>
+                <td id="speed" class="stats"></td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>
+<script src="script.js"defer></script>

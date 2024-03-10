@@ -1,0 +1,84 @@
+body{
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(26, 26, 56);
+}
+#container{
+    background-color: white;
+    padding: 1rem;
+    border-radius: 1rem;
+    box-shadow: 0.5rem 0.5rem rgb(185, 184, 184);
+    width: 450px;
+    min-height: 789px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+label{
+    font-size: larger;
+}
+input{
+    height: 2rem;
+    width: 12rem
+}
+button{
+    padding: 0.9rem;
+    background-color: blueviolet;
+    color: white;
+    border: 0px;
+    border-radius: 1.5rem;
+    margin-left: 0.5rem;
+    cursor: pointer;
+}
+#pokemon-container{
+    background-color: rgb(247, 250, 255);
+    width: calc(100% - 2rem);
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    padding: 0rem 1rem;
+    margin: 1rem 0px;
+    visibility:hidden;
+}
+img{
+    display: block;
+    width: 12rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+#pokemon-name{
+    text-transform: uppercase;
+    font-size: 1.4rem;
+    margin-right: 0.5rem;
+}
+#pokemon-id{
+    font-size: 1.4rem;
+}
+h4{
+    margin-bottom: -1px;
+}
+#types{
+    text-transform: uppercase;
+}
+#types span{
+    font-size: 12px;
+    margin-right: 0.4rem;
+    background-color: blueviolet;
+    padding: 0.5rem 1.2rem;
+    border-radius: 0.5rem;
+}
+table{
+    width: 100%;
+    border-spacing: 5px;
+}
+tr{
+    text-align: center;
+}
+th, td{
+    background-color: blueviolet;
+    color: white;
+    font-size: 1.5rem;
+    padding: 0.4rem 0px;
+}
